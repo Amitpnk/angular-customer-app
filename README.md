@@ -20,4 +20,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     - [Lab 2 - Creating component and model](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab2/CustomerApplication)
     - [Lab 3 - Angular routing with master page and navigations](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab3/CustomerApplication)
     - [Lab 4 - Increasing performance using lazy loading](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab4/CustomerApplication)
-    - [Lab 5 - Implemeting validation](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab4/CustomerApplication)
+    - [Lab 5 - Implemeting validation](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab5/CustomerApplication)
+    - [Lab 6 - Dependency injection](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab6/CustomerApplication)
