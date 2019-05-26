@@ -22,3 +22,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     - [Lab 4 - Increasing performance using lazy loading](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab4/CustomerApplication)
     - [Lab 5 - Implemeting validation](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab5/CustomerApplication)
     - [Lab 6 - Dependency injection](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab6/CustomerApplication)
+    - [Lab 7 - Input, Output & event emitter](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab7/CustomerApplication)
