@@ -17,7 +17,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     - [ng test](#npm-test)
     - [ng build](#npm-run-build)
 -  Sample application with each labs
-    - [Lab 1 - npm example]
+    - [Lab 1 - npm example](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab1/npm-example)
     - [Lab 2 - Creating component and model](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab2/CustomerApplication)
     - [Lab 3 - Angular Routing - Creating Master page and Navigators](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab3/CustomerApplication)
     - [Lab 4 - Implementing lazy loading and increase the performance of the application](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab4/CustomerApplication)
