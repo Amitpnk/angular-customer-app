@@ -1,14 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { MasterpageComponent } from './CustomerApp.MasterPageComponent';
-import { FormsModule } from "@angular/forms";
+
+import { MasterPageComponent } from './CustomerApp.MasterPageComponent';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 import { HomeComponent } from './CustomerApp.HomeComponent';
-import { RouterModule } from "@angular/router";
-import { MainRoutes } from "../Routing/CustomerApp.MainRouting";
+import { MainRoutes } from '../Routing/CustomerApp.MainRouting';
 
 @NgModule({
   declarations: [
-    MasterpageComponent, HomeComponent
+    MasterPageComponent, HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -16,6 +17,6 @@ import { MainRoutes } from "../Routing/CustomerApp.MainRouting";
     RouterModule.forRoot(MainRoutes)
   ],
   providers: [],
-  bootstrap: [MasterpageComponent]
+  bootstrap: [MasterPageComponent]
 })
 export class MainModule { }

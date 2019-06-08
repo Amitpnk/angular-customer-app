@@ -1,38 +1,32 @@
-<form [formGroup]="customerModel.formCustomerGroup">
-    <div>
-        Customer code : <input type="text" formControlName="CustomerCodeControl"
-            [(ngModel)]="customerModel.CustomerCode"> <br>
-        Customer name : <input type="text" formControlName="CustomerNameControl"
-            [(ngModel)]="customerModel.CustomerName"><br>
-        Customer amount : <input type="text" [ngModelOptions]="{standalone: true}"
-            [(ngModel)]="customerModel.CustomerAmount"><br>
-        <input type="button" value="Add" (click)="Add()" [disabled]="!(customerModel.formCustomerGroup.valid)">
-    </div>
+<form [formGroup]="CustomerModel.formCustomerGroup">
+  Customer code : <input type="text" formControlName="CustomerCodeControl" [(ngModel)]="CustomerModel.CustomerCode">
+  <br>
+  Customer name: <input type="text" formControlName="CustomerNameControl" [(ngModel)]="CustomerModel.CustomerName"> <br>
+  Customer amount : <input type="text" [ngModelOptions]="{standalone: true}" [(ngModel)]="CustomerModel.CustomerAmount">
+  <br>
+  <input type="button" value="Add" (click)="Add()" [disabled]="!(CustomerModel.formCustomerGroup.valid)"> <br>
+
+  <div *ngIf="CustomerModel.formCustomerGroup.dirty" [hidden]="!(hasError('required','CustomerNameControl'))">Customer
+    name is required</div>
+  <div *ngIf="CustomerModel.formCustomerGroup.dirty" [hidden]="!(hasError('required','CustomerCodeControl'))">Customer
+    code is required</div>
+  <div *ngIf="CustomerModel.formCustomerGroup.dirty" [hidden]="!(hasError('pattern','CustomerCodeControl'))">Customer
+    code pattern is not proper</div>
 </form>
 
-<div *ngIf="customerModel.formCustomerGroup.dirty" [hidden]="!(hasError('pattern','CustomerCodeControl' ))">Customer
-    code
-    format is not proper</div>
-<div *ngIf="customerModel.formCustomerGroup.dirty"
-    [hidden]="!(hasError('required','CustomerCodeControl'))">Customer code is
-    required</div>
-<div *ngIf="customerModel.formCustomerGroup.touched"
-    [hidden]="!(hasError('required','CustomerNameControl'))">Customer name is
-    required</div>
-
-{{customerModel.CustomerCode}} <br>
-{{customerModel.CustomerName}}<br>
-{{customerModel.CustomerAmount}}<br>
+{{CustomerModel.CustomerCode}} <br>
+{{CustomerModel.CustomerName}} <br>
+{{CustomerModel.CustomerAmount}} <br>
 
 <table>
-    <tr>
-        <td>Customer code</td>
-        <td>Customer name</td>
-        <td>Customer amount</td>
-    </tr>
-    <tr *ngFor="let cust of customerModels">
-        <td>{{cust.CustomerCode}}</td>
-        <td>{{cust.CustomerName}}</td>
-        <td>{{cust.CustomerAmount}}</td>
-    </tr>
+  <tr>
+    <td>Customer code</td>
+    <td>Customer name</td>
+    <td>Customer amount</td>
+  </tr>
+  <tr *ngFor="let cust of CustomerModels">
+    <td> {{cust.CustomerCode}} </td>
+    <td> {{cust.CustomerName}} </td>
+    <td> {{cust.CustomerAmount}} </td>
+  </tr>
 </table>

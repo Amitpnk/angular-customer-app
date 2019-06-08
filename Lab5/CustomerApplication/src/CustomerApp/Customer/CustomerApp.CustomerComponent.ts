@@ -1,22 +1,24 @@
 import { Component } from '@angular/core';
-import { Customer } from "./Customer.Model";
-import { CustomerModule } from './CustomerApp.CustomerModule';
-
+import { Customer } from './CustomerApp.CustomerModel';
 @Component({
   templateUrl: './CustomerApp.CustomerView.html',
 })
 export class CustomerComponent {
-  title = 'Customer App';
-  customerModel: Customer = new Customer();
-  customerModels: Array<Customer> = new Array<Customer>();
+  title = 'CustomerApplication';
+
+  CustomerModel: Customer = new Customer();
+  CustomerModels: Array<Customer> = new Array<Customer>();
 
   Add() {
-    this.customerModels.push(this.customerModel);
-    this.customerModel = new Customer();
+
+    this.CustomerModels.push(this.CustomerModel);
+    this.CustomerModel = new Customer();
   }
 
-  hasError(typeofValidator: string, controlName: string): boolean {
-    return this.customerModel.formCustomerGroup.controls[controlName].hasError(typeofValidator);
-  }
 
+  hasError(typeofcontrol: string, controlName: string): boolean {
+    debugger;
+    const x = this.CustomerModel.formCustomerGroup.controls[controlName].hasError(typeofcontrol);
+    return x;
+  }
 }

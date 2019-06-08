@@ -1,18 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { MasterpageComponent } from './CustomerApp.MasterPageComponent';
-import { FormsModule } from "@angular/forms";
-import { SupplierComponent } from './Supplier/CustomerApp.SupplierComponent';
-import { HomeComponent } from './Home/CustomerApp.HomeComponent';
-import { CustomerComponent } from './Customer/CustomerApp.CustomerComponent';
-
-import { RouterModule } from "@angular/router";
-import { MainRoutes } from "./Routing/CustomerApp.MainRouting";
+import { MasterPageComponent } from '../CustomerApp/Home/CustomerApp.MasterPageComponent';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { HomeComponent } from '../CustomerApp/Home/CustomerApp.HomeComponent';
+import { CustomerComponent } from '../CustomerApp/Customer/CustomerApp.CustomerComponent';
+import { SupplierComponent } from '../CustomerApp/Supplier/CustomerApp.SupplierComponent';
+import { MainRoutes } from './Routing/CustomerApp.MainRouting';
 
 @NgModule({
   declarations: [
-    MasterpageComponent, CustomerComponent, SupplierComponent, HomeComponent
+    MasterPageComponent, HomeComponent,
+    CustomerComponent, SupplierComponent
   ],
   imports: [
     BrowserModule,
@@ -20,6 +20,6 @@ import { MainRoutes } from "./Routing/CustomerApp.MainRouting";
     RouterModule.forRoot(MainRoutes)
   ],
   providers: [],
-  bootstrap: [MasterpageComponent]
+  bootstrap: [MasterPageComponent]
 })
-export class AppModule { }
+export class CustomerModule { }
