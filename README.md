@@ -12,9 +12,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [Sending Feedback](#sending-feedback)
 - [Folder Structure](#folder-structure)
 - [Main Available Scripts](#available-scripts)
-    - [ng serve](#npm-start)
-    - [ng test](#npm-test)
-    - [ng build](#npm-run-build)
+    - [ng serve](#ng-serve)
+    - [ng build](#ng-build)
+    - [ng test](#ng-test)
 -  Sample application with each labs
     - [Lab 1 - npm example](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab01/npm-example)
     - [Lab 2 - Creating component and model](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab02/CustomerApplication)
