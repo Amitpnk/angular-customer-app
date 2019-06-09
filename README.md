@@ -9,13 +9,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Table of Contents
 
-- [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
 - [Folder Structure](#folder-structure)
 - [Main Available Scripts](#available-scripts)
-    - [ng serve](#npm-start)
-    - [ng test](#npm-test)
-    - [ng build](#npm-run-build)
+    - [ng serve](#ng-serve)
+    - [ng build](#ng-build)
+    - [ng test](#ng-test)
 -  Sample application with each labs
     - [Lab 1 - npm example](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab01/npm-example)
     - [Lab 2 - Creating component and model](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab02/CustomerApplication)
@@ -51,14 +50,18 @@ By end of lab, your project will look like this:
 CustomerApplication/
   README.md
   node_modules/
-  
+
+  // ...
+
   angular.json
   package.json
   package-lock.json
   tsconfig.json
   tslint.json
   db.json
-
+  
+  // ...
+  
   src/
     assets/
     CustomerApp/
@@ -88,6 +91,28 @@ CustomerApplication/
     index.html
     main.ts
 
+  // ...
+
 ```
+
+## Available Scripts
+
+In the project directory, you can run project individual by Labs
+
+### `ng serve`
+
+Runs the app in development mode <br>
+Open [http://localhost:4200](http://localhost:4200) to view it in the browser.
+
+The page will reload if you make edits. <br>
+You will also see any lint errors in the console.
+
+### `ng build`
+
+Build the app for production to the `dist` folder. <br>
+
+### `ng test`
+
+Runs the test case 
 
 
