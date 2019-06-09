@@ -1,0 +1,40 @@
+{
+  "Customers": [
+    {
+      "id": 1,
+      "CustomerCode": "1001",
+      "CustomerName": "Amit",
+      "CustomerAmount": 5000
+    },
+    {
+      "CustomerCode": "1002",
+      "CustomerName": "Shiva",
+      "CustomerAmount": "6000",
+      "id": 2
+    },
+    {
+      "CustomerCode": "1003",
+      "CustomerName": "Shwetha",
+      "CustomerAmount": "6000",
+      "id": 3
+    },
+    {
+      "CustomerCode": "1004",
+      "CustomerName": "Mahul",
+      "CustomerAmount": "4000",
+      "id": 4
+    },
+    {
+      "CustomerCode": "1005",
+      "CustomerName": "Krishna",
+      "CustomerAmount": "8000",
+      "id": 5
+    },
+    {
+      "CustomerCode": "1006",
+      "CustomerName": "Test",
+      "CustomerAmount": "3000",
+      "id": 6
+    }
+  ]
+}
