@@ -50,14 +50,18 @@ By end of lab, your project will look like this:
 CustomerApplication/
   README.md
   node_modules/
-  
+
+  // ...
+
   angular.json
   package.json
   package-lock.json
   tsconfig.json
   tslint.json
   db.json
-
+  
+  // ...
+  
   src/
     assets/
     CustomerApp/
