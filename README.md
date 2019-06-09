@@ -150,7 +150,22 @@ In this lab, we will create reusable components using Angular
 In this lab, we will make call to API by creating fake API and see how we can make RESTful API calls using Angular
 
 ### Lab 9 - Services
+
+In this lab, using services will see how to implement HttpInterceptor
+
 ### Lab 10 - Implementing pipes
+
+In this Lab will what is pipes and will see how to implement it
+
 ### Lab 11 - Angular Component Cycle
+
+This is will be a demonstration of Angular component life cycle and in what event we can put
+what kind of code
+
 ### Lab 12 - jQuery integration with Angular
+
+In this lab we will see how to integrate old javascript frameworks like jQuery with Angular
+
 ### Lab 13 - Unit testing with Angular
+
+Create simple unit test case on Angular components using Jasmine and Karma
