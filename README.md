@@ -91,6 +91,8 @@ CustomerApplication/
     index.html
     main.ts
 
+  // ...
+
 ```
 
 ## Available Scripts
