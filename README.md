@@ -115,4 +115,42 @@ Build the app for production to the `dist` folder. <br>
 
 Runs the test case 
 
+## Sample application with each labs
+### Lab 1 - npm example
 
+It is command line interface which helps to get basic setup of angular project 
+For eg: If we run, `npm install --save angular` we will able to get angular 1.7.8 as updated in package-lock.json file, so angular-cli helps to get latest version of angular (currently 7) with basic setup of angular project
+
+### Lab 2 - Creating component and model
+
+In this lab, we will create simple angular application with angular CLI and understand the architecture of it
+
+### Lab 3 - Angular Routing - Creating Master page and Navigators
+
+In this lab, we can see how we can implementing angular routing with master page and navigations
+
+### Lab 4 - Implementing lazy loading and increase the performance of the application
+
+In this lab, we can see how we can implementing lazy loading and increase the performance of the application
+
+### Lab 5 - Validation using Angular validation framework
+
+In this lab, we can see how we can implementing validation using Angular validation framework
+
+### Lab 6 - Dependency Injection
+
+In this lab will help us understand how to create better and decoupled architecture using DI feature of Angular
+
+### Lab 7 - Input / Output and Event Emitters
+
+In this lab, we will create reusable components using Angular
+
+### Lab 8 - HTTP call in Angular
+
+In this lab, we will make call to API by creating fake API and see how we can make RESTful API calls using Angular
+
+### Lab 9 - Services
+### Lab 10 - Implementing pipes
+### Lab 11 - Angular Component Cycle
+### Lab 12 - jQuery integration with Angular
+### Lab 13 - Unit testing with Angular
