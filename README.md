@@ -64,9 +64,30 @@ CustomerApplication/
     CustomerApp/
       Customer/
         CustomerApp.CustomerComponent.ts      
-      
-    index.css
-    index.js
+        CustomerApp.CustomerModel.ts
+        CustomerApp.CustomerModule.ts
+        CustomerApp.CustomerView.html
+      Home
+        CustomerApp.HomeComponenttc
+        CustomerApp.HomeView.html
+        CustomerApp.MainModule.ts
+        CustomerApp.MasterPageComponentts
+        CustomerApp.MasterPageView.html
+      Routing
+        CustomerApp.CustomerRouting.ts
+        CustomerApp.MainRouting.ts
+        CustomerApp.SupplierRouting.ts
+      Supplier
+        CustomerAppsupplierComponent.ts
+        CustomerApp.SupplierModule.ts
+        CustomerApp.SupplierView.html
+      Utility
+        CustomerApp.GridComponent.ts
+        CustomerApp.GridView.html
+        CustomerApp.Logger.ts
+    index.html
+    main.ts
+
 ```
 
 
