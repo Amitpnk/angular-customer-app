@@ -9,7 +9,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Table of Contents
 
-- [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
 - [Folder Structure](#folder-structure)
 - [Main Available Scripts](#available-scripts)
@@ -89,5 +88,25 @@ CustomerApplication/
     main.ts
 
 ```
+
+## Available Scripts
+
+In the project directory, you can run project individual by Labs
+
+### `ng serve`
+
+Runs the app in development mode <br>
+Open [http://localhost:4200](http://localhost:4200) to view it in the browser.
+
+The page will reload if you make edits. <br>
+You will also see any lint errors in the console.
+
+### `ng build`
+
+Build the app for production to the `dist` folder. <br>
+
+### `ng test`
+
+Runs the test case 
 
 
