@@ -176,7 +176,7 @@ $ npm install jquery --save
 Add id for textbox and button in CustomerApp.CustomerView.html page
 
 ```html
-<input id="txtCustomerCode" type="text" formControlName="CustomerCodeControl" [(ngModel)]="CustomerModel.CustomerCode">
+<input id="txtCustomerCode" type="text" ... />
 
  ...
 
