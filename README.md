@@ -177,9 +177,7 @@ Add id for textbox and button in CustomerApp.CustomerView.html page
 
 ```html
 <input id="txtCustomerCode" type="text" ... />
-
  ...
-
 <input type="button" (click)="toggle()" value ="Toggle via jquery" />
 
 ```
@@ -188,9 +186,7 @@ Add CustomerApp.CustomerComponent.ts page
 
 ```javascript
 import * as $ from "jquery";
-
 ...
-
 toggle(){
   $("#txtCustomerCode").toggle();
 }
@@ -199,9 +195,7 @@ toggle(){
 Add below jquery to angular.json 
 
 ```json
-
 "scripts": ["node_modules/jquery/dist/jquery.js"]
-
 ```
 
 
