@@ -166,6 +166,45 @@ what kind of code
 
 In this lab we will see how to integrate old javascript frameworks like jQuery with Angular
 
+install jquery and @types/jquery to your package.json file
+
+```
+$ npm install @types/jquery --save
+$ npm install jquery --save
+```
+
+Add id for textbox and button in CustomerApp.CustomerView.html page
+
+```html
+<input id="txtCustomerCode" type="text" formControlName="CustomerCodeControl" [(ngModel)]="CustomerModel.CustomerCode">
+
+ ...
+
+<input type="button" (click)="toggle()" value ="Toggle via jquery" />
+
+```
+
+Add CustomerApp.CustomerComponent.ts page
+
+```javascript
+import * as $ from "jquery";
+
+...
+
+toggle(){
+  $("#txtCustomerCode").toggle();
+}
+```
+
+Add below jquery to angular.json 
+
+```json
+
+"scripts": ["node_modules/jquery/dist/jquery.js"]
+
+```
+
+
 ### Lab 13 - Unit testing with Angular
 
 Create simple unit test case on Angular components using Jasmine and Karma
