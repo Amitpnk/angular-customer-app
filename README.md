@@ -149,6 +149,28 @@ In this lab, we will create reusable components using Angular
 
 In this lab, we will make call to API by creating fake API and see how we can make RESTful API calls using Angular
 
+install [json-server](https://github.com/typicode/json-server#getting-started) 
+
+```
+$ npm install -g json-server // Installing json-server global level 
+$ json-server --watch db.json //  Start json-server in another terminals
+```
+
+Add json to db.json file
+
+```json
+{
+  "Customers": [
+    {
+      "id": 1,
+      "CustomerCode": "1001",
+      "CustomerName": "Amit",
+      "CustomerAmount": 5000
+    }
+  ]
+}
+```
+
 ### Lab 9 - Services
 
 In this lab, using services will see how to implement HttpInterceptor
