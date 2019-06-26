@@ -152,8 +152,11 @@ In this lab, we will make call to API by creating fake API and see how we can ma
 install [json-server](https://github.com/typicode/json-server#getting-started) 
 
 ```
-$ npm install -g json-server // Installing json-server global level 
-$ json-server --watch db.json //  Start json-server in another terminals
+// Installing json-server global level
+$ npm install -g json-server 
+
+// Start json-server in another terminals
+$ json-server --watch db.json 
 ```
 
 Add json to db.json file
