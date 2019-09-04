@@ -25,7 +25,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     - [Lab 7 - Input / Output and Event Emitters](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab07/CustomerApplication)
     - [Lab 8 - HTTP call in Angular](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab08/CustomerApplication)
     - [Lab 9 - Services](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab09/CustomerApplication)
-    - [Lab 10 - Implementing pipes](https://github.com/Amitpnk/angular-customer-app/tree/master/La10/CustomerApplication)
+    - [Lab 10 - Implementing pipes](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab10/CustomerApplication)
     - [Lab 11 - Angular Component Cycle](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab11/CustomerApplication)
     - [Lab 12 - jQuery integration with Angular](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab12/CustomerApplication)
     - [Lab 13 - Unit testing with Angular](https://github.com/Amitpnk/angular-customer-app/tree/master/Lab13/CustomerApplication)
